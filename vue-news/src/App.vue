@@ -4,7 +4,7 @@
     <!-- <ToolBar></ToolBar> -->
     <!-- essential -->
     <tool-bar></tool-bar>
-    
+    <!-- 여기 안에 구현 라우터가 구현됨. -->
     <router-view></router-view>
   </div>
 </template>

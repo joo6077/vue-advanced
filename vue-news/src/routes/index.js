@@ -8,6 +8,8 @@ import JobsView from '../views/JobsView.vue'
 Vue.use(VueRouter);
 
 export const router = new VueRouter({
+    // hash 값 제거.
+    mode: 'history',
     routes: [
         {
             path: '/',
@@ -29,7 +31,11 @@ export const router = new VueRouter({
         },
         {
             path: '/user',
-            component: 
+            component: UserView,
+        },
+        {
+            path: '/item',
+            component: ItemView,
         }
     ]
 })
