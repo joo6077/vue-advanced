@@ -31,13 +31,13 @@ export const router = new VueRouter({
             path: '/jobs',
             component: JobsView,
         },
-        // {
-        //     path: '/user',
-        //     component: UserView,
-        // },
-        // {
-        //     path: '/item',
-        //     component: ItemView,
-        // }
+        {
+            path: '/user/:id',
+            component: UserView,
+        },
+        {
+            path: '/item/:id',
+            component: ItemView,
+        }
     ]
 })
